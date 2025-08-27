@@ -18,7 +18,7 @@ def task():
         print("5.Exit task ")
         print("")
 
-        operation =int(input("choose operation between 1-5=2"))
+        operation =int(input("choose operation between 1-5="))
         if operation==1:
             add=input("Enter task you want to add= ")
             tasks.append(add)
@@ -50,3 +50,4 @@ def task():
             print("*invalid input*")
 
 task()
+
